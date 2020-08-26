@@ -92,7 +92,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
        moveToCurrentLocation();
     }
-
+    //Move the camera to current location if permission granted, else move to default location
     private void moveToCurrentLocation(){
         if(mMap == null){
             return;
